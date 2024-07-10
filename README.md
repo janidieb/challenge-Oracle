@@ -9,8 +9,8 @@ Este projeto foi criado como parte do Challenge ONE, um desafio da formação In
 
 ## Funcionalidades
 
-- **Criptação:** Oferece a capacidade de criptar mensagens, trocando letras do alfabeto por caracteres;
-- **Descriptação:** Oferece a capacidade de descriptar mensagens, trocando caracteres por letras do alfabeto.
+- **Criptação:** Oferece a capacidade de criptar mensagens, trocando vogais por algumas sílabas ou junções de letras diferentes;
+- **Descriptação:** Oferece a capacidade de descriptar mensagens, trocando as palavras alteradas pela mensagem desejada anteriormente;
 
 ## Como usar
 
