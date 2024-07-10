@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang='pt-br'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Decodificador</title>
+    <link rel='stylesheet' href='./style.css'>
+    <script src='./assets/app.js' defer></script>
+</head>
+<body>
+    <header class='logo'>
+        <img src='./assets/logo.png' alt='Alura'>
+    </header>
+    <main class='main-container'>
+        <section class='input-section'>
+            <div class='input-container'>
+                <textarea class='encrypt-message' placeholder='Digite seu texto' cols='41' rows='4'></textarea>
+            </div>
+            <div class='panel-section'>
+                <div class='warning-section'>
+                    <img src='./assets/ponto.png' alt='Aviso'>
+                    <p class='warning-text'>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class='action-buttons'>
+                    <button class='encrypt-button' onclick='buttonEncrypt()'>Criptografar</button>
+                    <button class='decrypt-button' onclick='buttonDecrypt()'>Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        <section class='output-section'>
+            <div class='result-container'>
+                <textarea class='decrypt-message' id='result' cols='20' rows='10'></textarea>
+                <button class='copy-button' onclick='buttonCopy()'>Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class='footer-section'>
+        <p>Desenvolvido por <a href='https://github.com/janidieb' target='_blank'>Janielly Dieb</a></p>
+    </footer>
+</body>
+</html>
